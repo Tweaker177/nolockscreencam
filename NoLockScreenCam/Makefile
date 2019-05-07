@@ -1,5 +1,5 @@
 ARCHS = armv7 armv7s arm64 arm64e
-TARGET = iphone:clang:9.0:7.0
+TARGET = iphone:clang:9.3:7.0
 include theos/makefiles/common.mk
 
 BUNDLE_NAME = NoLockScreenCam
