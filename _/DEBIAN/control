@@ -1,0 +1,11 @@
+Package: com.i0stweak3r.nolockscreencam
+Name: NoLockScreenCam
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Options to disable access to camera and photos from the lockscreen. Tested and working iOS 7-11.x Updated prefs for iOS 11 optimization. No resprings needed except for iOS 7.
+Maintainer: i0s_tweak3r
+Author: i0s_tweak3r
+Section: Tweaks
+Homepage: https://reddit.com/u/i0s-tweak3r
+Version: 1.0.4-5
+Installed-Size: 568

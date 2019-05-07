@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string></string>
+</dict>
+		<dict>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>height</key>
+			<integer>60</integer>
+			<key>icon</key>
+			<string>NoLockScreenCam@2x.png</string>
+			<key>label</key>
+			<string>NoLockScreenCam V1.0.4-5</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Disallows accessing camera from lock screen.  Removes the grabbers in older firmwares, disables CC icon on LS, and also the "slide to open camera" in iOS 10-12.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.i0stweak3r.nolockscreencam-prefsReload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+<key>cellClass</key>
+			<string>SRSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.i0stweak3r.nolockscreencam</string>
+			<key>key</key>
+			<string>key1</string>
+			<key>label</key>
+			<string>Enable tweak.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Hides the quick action button for the camera on iPhone X's.  Requires respring to turn on and off.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.i0stweak3r.nolockscreencam-prefsReload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+<key>cellClass</key>
+			<string>SRSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.i0stweak3r.nolockscreencam</string>
+			<key>key</key>
+			<string>key3</string>
+			<key>label</key>
+			<string>Remove X button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Removes camera from control center entirely.(Only needed for iOS 9, has no functionality on 10-12.)</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.i0stweak3r.nolockscreencam-prefsReload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+<key>cellClass</key>
+			<string>SRSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.i0stweak3r.nolockscreencam</string>
+			<key>key</key>
+			<string>key2</string>
+			<key>label</key>
+			<string>Remove from CC.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+<key>footerText</key>
+<string>Settings now update instantly for all firmwares except iOS 7, and the iPhone X LS button.  If by chance your device doesn't update right away, this will apply changes.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Apply changes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+<key>label</key>
+<string>Tweak created by:</string>
+		</dict>
+		<dict>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>height</key>
+			<integer>29</integer>
+			<key>icon</key>
+			<string>i0s_tweak3r.png</string>
+			<key>label</key>
+			<string>i0s_tweak3r</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitterLink</string>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter@2x.png</string>
+			<key>label</key>
+			<string>Follow on twitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+<key>footerText</key>
+<string>For access to all my free tweaks, add my repo, and check out other packages available in BigBoss.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>myOtherTweaks</string>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>height</key>
+			<integer>60</integer>
+			<key>icon</key>
+			<string>bigboss@2x.png</string>
+			<key>label</key>
+	<string>My tweaks in BigBoss</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>repoLink</string>
+<key>alignment</key>
+			<integer>2</integer>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>height</key>
+			<integer>60</integer>
+<key>icon</key>
+			<string>yourepo.png</string>
+			<key>label</key>
+			<string>👉 Add my repo</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>If you like this tweak, and want to support further development, plz consider a small donation.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate</string>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>paypal@2x.png</string>
+			<key>label</key>
+			<string>Donate</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NoLockScreenCam</string>
+</dict>
+</plist>

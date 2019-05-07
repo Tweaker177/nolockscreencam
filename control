@@ -1,0 +1,10 @@
+Package: com.i0stweak3r.nolockscreencam
+Name: NoLockScreenCam
+Depends: mobilesubstrate, preferenceloader
+Version: 1.0.5
+Architecture: iphoneos-arm
+Description: Options to disable access to camera and photos from the lockscreen. Tested and working iOS 7-12.1.2 No resprings needed except for iOS 7, and Quick Action button on iPhone X, Xs, Xr etc.
+Maintainer: i0s_tweak3r
+Author: i0s_tweak3r
+Section: Tweaks
+Homepage: https://reddit.com/u/i0s-tweak3r
